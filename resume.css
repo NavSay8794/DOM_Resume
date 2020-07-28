@@ -1,0 +1,174 @@
+.container{
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.headingPart{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+}
+
+.addressBar{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.resumeBody{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+}
+
+.leftside {
+    flex: 50%;
+    border-right: 1px solid gray;
+}
+
+.rightside{
+    flex: 50%;
+    border-left: 1px solid gray;
+}
+
+
+.para{
+    position: relative;
+    padding-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+hr{
+    color: rgb(122, 119, 119);
+    height: 1px;
+}
+
+.fullback{
+    background-color: rgb(83, 81, 81);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.whitepatch{
+    position: relative;
+    height: 13%;
+    width: 100%;
+    top: 70%;
+    background-color: white;
+}
+
+.imageDetails{
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px #e6b500 dashed;
+}
+
+.nameBlock{
+    position: absolute;
+    background-color: #e6b500;
+    border-radius: 2%;
+    border: 1px solid black;
+    left: 38%;
+    top: 19%;
+    width: 24%;
+    height: 9%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.namer{
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size:30px;
+}
+
+/*Resume Body */
+.spaceleft{
+    padding: 20px 30px ;
+    border-right: 2px solid rgb(122, 119, 119);
+}
+
+.spaceright{
+    padding: 20px 30px;
+}
+
+.smallsizing{
+    border-radius: 50%;
+    border: 3px dotted #e6b500;
+    float: left;
+}
+
+.heading{
+    font-size: 2rem;
+    padding: 5px 15px;
+    color: rgb(122, 119, 119);
+}
+.carrobj{
+    padding: 2px;
+}
+#table{
+    padding: 5px;
+}
+
+.skills{
+    width: 100%;
+}
+.tech{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.widthchange{
+    width: 40%;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 80%; /* Full-width */
+     /* Specified height */
+    background: #e6b500; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    
+  }
+
+.workExp{
+      padding: 5px;
+      width: 85%;
+  }
+  
+.list{
+    line-height: 1.3rem;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 3px;
+    text-align: center;
+}
